@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    
+    
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+
+    width: 100%;
+}
+
+.languages{
+    list-style: none;
+    display: flex;
+
+}
+
+.language{
+    padding-right: 15px;
+    cursor: pointer;
+}

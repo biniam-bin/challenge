@@ -1,0 +1,140 @@
+
+
+.main{
+    background-color: rgb(14, 12, 12);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    color: white;
+   
+}
+
+.main-form{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: -5px;
+    width: 50%;
+    border-radius: 8px;
+    background-color: black;
+
+    
+}
+
+.form-container{
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input-container{
+    /* background-color: red; */
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.input-container > input{
+    background-color: rgb(46, 40, 40);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    font-size: 14px;
+   
+}
+.input-container > span > input{
+    background-color: rgb(46, 40, 40);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    font-size: 14px;
+   
+}
+
+span {
+    padding: 2;
+}
+select{
+    background-color: rgb(46, 40, 40);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    font-size: 14px;
+    
+}
+
+.text-area{
+    background-color: rgb(46, 40, 40);
+    color: white;
+    border-radius: 5px;
+
+}
+.select-container{
+    margin-top: 8px;
+}
+
+.input-container > input:focus {
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+.input-container > span > input:focus {
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+.input-container > span{
+    margin-right: 5px;
+}
+
+.error-message{
+    font-size: 14px;
+    color: red;
+    max-width: 250px;
+}
+/* 
+.first-section{
+    display: flex;
+} */
+
+@media only screen and (max-width: 800px) {
+    .main-form{
+        width: 90%;
+        
+        object-fit: contain;
+    }
+    .input-container{
+        flex-direction: column;
+        padding: 2px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .main{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .select-container{
+        
+        flex-direction: column;
+        display: flex;
+        /* background-color: aqua; */
+        align-items: center;
+        justify-content: center;
+    }
+    
+  }
